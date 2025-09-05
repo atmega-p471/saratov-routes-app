@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Корона -->
+  <g transform="translate(0, -2)">
+    <!-- Основание короны -->
+    <path d="M4 12 L28 12 L26 14 L6 14 Z" fill="#FFD700" stroke="#B8860B" stroke-width="0.5"/>
+    <!-- Зубцы короны -->
+    <path d="M6 8 L8 12 L10 8 L12 12 L14 8 L16 12 L18 8 L20 12 L22 8 L24 12 L26 8 L26 14 L6 14 Z" fill="#FFD700" stroke="#B8860B" stroke-width="0.5"/>
+    <!-- Центральный зубец -->
+    <path d="M14 4 L18 4 L18 8 L16 12 L16 8 L14 8 Z" fill="#FFD700" stroke="#B8860B" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Щит -->
+  <path d="M4 16 L28 16 L28 32 L16 38 L4 32 Z" fill="#4A90E2" stroke="#2E5BBA" stroke-width="1"/>
+  
+  <!-- Стерлядь -->
+  <g transform="translate(16, 24)">
+    <!-- Тело рыбы -->
+    <path d="M-8 0 Q-6 -2 0 -1 Q6 -2 8 0 Q6 2 0 1 Q-6 2 -8 0" fill="white" stroke="#333" stroke-width="0.5"/>
+    <!-- Голова -->
+    <circle cx="-6" cy="0" r="1.5" fill="white" stroke="#333" stroke-width="0.3"/>
+    <!-- Хвост -->
+    <path d="M8 0 L12 -2 L10 0 L12 2 Z" fill="white" stroke="#333" stroke-width="0.5"/>
+    <!-- Плавники -->
+    <path d="M-4 -1 L-2 -4 L0 -1" fill="none" stroke="#333" stroke-width="0.3"/>
+    <path d="M-4 1 L-2 4 L0 1" fill="none" stroke="#333" stroke-width="0.3"/>
+    <path d="M2 -1 L4 -3 L6 -1" fill="none" stroke="#333" stroke-width="0.3"/>
+    <path d="M2 1 L4 3 L6 1" fill="none" stroke="#333" stroke-width="0.3"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="8" cy="20" r="0.5" fill="#FFD700"/>
+  <circle cx="24" cy="20" r="0.5" fill="#FFD700"/>
+  <circle cx="8" cy="28" r="0.5" fill="#FFD700"/>
+  <circle cx="24" cy="28" r="0.5" fill="#FFD700"/>
+</svg>
